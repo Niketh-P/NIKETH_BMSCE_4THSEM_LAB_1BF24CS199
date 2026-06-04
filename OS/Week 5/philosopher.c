@@ -3,7 +3,7 @@
 #include <semaphore.h>
 #include <unistd.h>
 
-#define MAX 10
+#define MAX 5
 
 int n;
 sem_t forks[MAX];
